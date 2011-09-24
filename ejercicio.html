@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+    <title>Ejercicio</title>
+
+
+    <link rel="stylesheet" href="estilo.css" type="text/css" media="screen" charset="utf-8" />
+    <link rel="stylesheet" href="estilo2.css" type="text/css" media="screen" charset="utf-8" />
+
+    <style type="text/css" media="screen">
+         /* @import url ("estilo3.css");*/
+        body{
+            font-size:12pt;
+        }
+        div#contenedor{
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+            border: 1px solid black;
+        }
+        div#xy{
+              color: red;  
+              border:1px solid black;
+              margin: 20px;
+              padding: 20px;
+              width: 200px;         
+        }
+        p{
+            font-size:2em;
+        }
+        h1{
+              margin: 40px;
+              padding: 20px;
+              color: #334455 !important;
+        }
+        
+        li em { color : olive ;}
+        h1 em ,  h2 em ,  h3 em { color : red ; }
+        
+        img[title='prueba'] {
+              border:3px solid red;
+              width: 250px;
+        }
+        
+        *[lang|="it"]{
+              font-family: SimSum-18030, SimHei,  serif;
+              border: 1px solid black;
+              font-size: 19pt;
+         }
+         blockquote:before {
+              content : '"';
+              font-size:24px;
+              color : purple;
+          }
+          blockquote :after {
+              content: '"';
+              font-size:24px ;
+              color:purple; 
+          }
+
+    </style>
+   
+</head>
+
+<body>
+    <div id="contenedor">
+
+        <div id="contenido">
+            <h1 id="titulo1">Prueba de titulo1 </h1>
+            <h2 id="titulo2">Prueba de titulo2</h2>
+            <h3 id="titulo3"><em>Prueba de titulo3 EM</em></h3>
+            <h4 id="titulo4">Prueba de titulo4</h4>
+            <h5 id="titulo5">Prueba de titulo5</h5>
+       </div>
+        <li>
+           <ul>Prueba 1</ul>
+           <ul>
+               <em>Prueba   </em>
+           </ul>  
+        </li>
+        
+        <div id="xy">
+        <p>Prueba.</p>
+        </div>
+
+        <blockquote>
+            <p>Esto es una prueba de blokquote.!</p>
+        </blockquote>
+   
+    <img src="dog.jpg" title="prueba" > 
+    </img>
+
+    
+    
+    <p>Esto es una prueba de PÃrrafo!</p>
+    <p lang="it-CH"> Questa Ã© la storia di un mondo ideale </p>
+
+</div>
+</body>
+</html>

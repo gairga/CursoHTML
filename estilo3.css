@@ -1,0 +1,9 @@
+h1{
+  color: red;
+  border: 1px solid #000;
+}
+p{
+  color: blue;
+}
+
+@import url("estilo3.css");
